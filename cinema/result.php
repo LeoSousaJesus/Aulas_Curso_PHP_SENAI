@@ -23,4 +23,6 @@
             break;
 
     }
+    //saída de dados
+    echo $idade$r >= $idadeMinima ? "Tenha um bom filme." : .$nome . 'não possui a idade mínima. Clique <a href="index.html">aqui</a> para escolher outro filme.';
 ?>
