@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <form action="result.php" method="post">
+        <label for="x">Informe o valor de "X":</label><br />
+        <input type="text" name="x"/><br /><br />
+        <label for="y">Informe o valor de "Y":</label><br />
+        <input type="text" name="y"/><br /><br />
+        <label for="operador">Informe a operação desejada</label>
+        <select name="operador">
+            <option value="soma">Soma</option>
+            <option value="subtração">Subtração</option>
+            <option value="multiplicação">Multiplicação</option>
+            <option value="divisão">Divisão</option>
+            <option value="resto">Resto da divisão</option>
+            <option value="potência">Potenciação</option>
+        </select><br /><br />
+        <button type="submit">Calcular</button>
+    </form>
+</body>
+</html>
