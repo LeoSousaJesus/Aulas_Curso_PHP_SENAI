@@ -4,9 +4,6 @@
     * Obs: Use a função pi() do PHP para pegar o verdadeiro valor do número PI.
     */
 
-// importando as funções de outro arquivo
-include "funcoes.php";
-
 // Função para calcular a área do círculo
 function calcularAreaCirculo($raio) {
     return pi()*$raio**2; 
