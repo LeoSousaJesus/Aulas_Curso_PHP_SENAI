@@ -4,12 +4,12 @@
     * Obs: Use a função pi() do PHP para pegar o verdadeiro valor do número PI.
     */
 
-// Função para calcular a área do círculo
-function calcularAreaCirculo($raio) {
-    return pi()*$raio**2; 
-}
+    // Função para calcular a área do círculo
+    function calcularAreaCirculo($raio) {
+        return pi()*$raio**2; 
+    }
 
-function calcularCircunferencia($raio) {
-    return 2*pi()*$raio;
-}
+    function calcularCircunferencia($raio) {
+        return 2*pi()*$raio;
+    }
 ?>
