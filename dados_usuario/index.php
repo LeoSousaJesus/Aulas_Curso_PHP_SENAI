@@ -32,8 +32,8 @@ os dados devem ser armazenados em uma array e apresentados na tela. */ -->
         <label for="cpf">Informe o CPF: </label><br />
         <input type="text" name="cpf"> <br /><br />
 
-        <label for="proficao">Informe a profissão: </label><br />
-        <input type="text" name="proficao"> <br /><br />
+        <label for="profissao">Informe a profissão: </label><br />
+        <input type="text" name="profissao"> <br /><br />
 
         <label for="cep">Informe o CEP: </label><br />
         <input type="text" name="cep"> <br /><br />
