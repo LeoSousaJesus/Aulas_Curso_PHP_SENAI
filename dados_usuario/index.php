@@ -8,6 +8,10 @@ os dados devem ser armazenados em uma array e apresentados na tela. */ -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dados Usuário</title>
+    <style> body{
+                background:rgb(216, 179, 158);
+            }
+    </style>
 </head>
 <body>
     <h1>Cadastrar Usúario</h1>
