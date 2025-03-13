@@ -62,7 +62,7 @@ os dados devem ser armazenados em uma array e apresentados na tela. */ -->
     <?php 
         if($_SERVER['REQUEST_METHOD'] == "POST"){
 
-            $dados = array('Nome' =>$_POST['nome'], 'Idade' =>$_POST['idade'], 'E-mail' =>$_POST['email'], 'Telefone' =>$_POST['telefone'], 'CPF' =>$_POST['cpf'], 'Profissão' =>$_POST['proficao'], 'CEP' =>$_POST['cep'], 'UF' =>$_POST['uf'], 'Cidade' =>$_POST['cidade'], 'Bairro' =>$_POST['bairro'], 'Logradouro' =>$_POST['logradouro'], 'Complemento' =>$_POST['complemento'], 'Número' =>$_POST['numero']);
+            $dados = array('Nome' =>$_POST['nome'], 'Idade' =>$_POST['idade'], 'E-mail' =>$_POST['email'], 'Telefone' =>$_POST['telefone'], 'CPF' =>$_POST['cpf'], 'Profissão' =>$_POST['profissao'], 'CEP' =>$_POST['cep'], 'UF' =>$_POST['uf'], 'Cidade' =>$_POST['cidade'], 'Bairro' =>$_POST['bairro'], 'Logradouro' =>$_POST['logradouro'], 'Complemento' =>$_POST['complemento'], 'Número' =>$_POST['numero']);
             foreach($dados as $dado => $valor){
                 echo $dado .": ". $valor ."<br />";
             }
