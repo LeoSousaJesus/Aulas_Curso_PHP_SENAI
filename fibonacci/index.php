@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -25,10 +27,26 @@
         return $numero < 2 ? $numero : calcularFibonacci($numero - 1) + calcularFibonacci($numero - 2);
     }
 
+    function calcularSequenciaFibonacci($numero) {
+        $sequencia = [];
+        for ($i = 0; $i <= $numero; $i++) {
+            if ($i < 2) {
+                $sequencia[] = $i;
+            } else {
+                $sequencia[] = $sequencia[$i - 1] + $sequencia[$i - 2];
+            }
+        }
+        return $sequencia;
+    }
+
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         // declaração de variáveis
         $numero = $_POST['numero'];
 
+        // calcular a sequência
+        $sequencia = calcularSequenciaFibonacci($numero);
+
         //saída de dados
         echo "<h2>O número de Fibonacci de " . $numero . " é: " . calcularFibonacci($numero) . "</h2>";
+        echo "<p>" . implode(", ", $sequencia) . "</p>";
     }
