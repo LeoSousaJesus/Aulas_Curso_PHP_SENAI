@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fibonacci</title>
+    <style> body{
+                background:rgb(158, 173, 216);
+            }
+    </style>
 </head>
 <body>
     <h1>Sequência de Fibonacci</h1>
