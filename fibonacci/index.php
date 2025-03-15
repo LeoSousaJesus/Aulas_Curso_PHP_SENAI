@@ -1,4 +1,9 @@
-
+/*
+* Crie um script em PHP que gere a sequência de Fibonacci até o termo informado pelo usuário
+* em um formulário HTML. Exemplo: o usuário informa no formulário o número 10, o script deve gerar a sequência de Fibonacci até o termo 10.
+* Obs; fazer a funçao recursiva.
+* Obs: A sequência de Fibonacci é uma sequência de números inteiros, começando normalmente por 0 e 1, na qual, cada termo subsequente corresponde à soma dos dois anteriores.
+*/
 
 <!DOCTYPE html>
 <html lang="pt-br">
