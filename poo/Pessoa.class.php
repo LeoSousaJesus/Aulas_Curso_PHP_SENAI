@@ -9,7 +9,15 @@
 
         // método
     function saudar(){
-        return "Olá é um prazer estar aqui!";
+        return "Olá meu nome é " . $this->none . "é um prazer estar aqui!";
+    }
+
+    function exibirCartaoVisitas() {
+        echo "<h2>Segue o meu cartão de visitas</h2>";
+        echo "<b>Nome:</b> " . $this->nome . "<br />";
+        echo "<b>Idade:</b> " . $this->idade . "<br />";
+        echo "<b>CPF:</b> " . $this->cpf . "<br />";
+        echo "<b>E-mail:</b> " . $this->email . "<br />";
     }
 }
 ?>

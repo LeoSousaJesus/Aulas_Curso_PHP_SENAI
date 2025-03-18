@@ -19,4 +19,5 @@
 
     // executar o método saudar
     echo "<h1>" . $usuario->saudar() . "</h1>";
+    $usuario->exibirCartaoVisitas();
 ?>
