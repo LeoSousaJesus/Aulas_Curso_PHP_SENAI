@@ -11,6 +11,7 @@
     $usuario->cpf = $_POST['cpf'];
     $usuario->email = $_POST['email'];
 
+    // exibir os dados do usuário
     echo "<h1>Dados do Usuário</h1>";
     echo "<b>Nome:</b> " . $usuario->nome . "<br />";
     echo "<b>Idade:</b> " . $usuario->idade . "<br />";

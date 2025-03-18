@@ -7,11 +7,11 @@
         public $cpf;
         public $email;
 
-        // método
+    // método da classe Pessoa (saudar)
     function saudar(){
         return "Olá meu nome é " . $this->nome . " é um prazer estar aqui!";
     }
-
+    // método da classe Pessoa (exibirCartaoVisitas)
     function exibirCartaoVisitas() {
         echo "<h2>Segue o meu cartão de visitas</h2>";
         echo "<b>Nome:</b> " . $this->nome . "<br />";
