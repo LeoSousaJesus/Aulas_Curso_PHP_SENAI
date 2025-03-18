@@ -9,7 +9,7 @@
 
         // método
     function saudar(){
-        return "Olá meu nome é " . $this->none . "é um prazer estar aqui!";
+        return "Olá meu nome é " . $this->nome . " é um prazer estar aqui!";
     }
 
     function exibirCartaoVisitas() {
