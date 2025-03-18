@@ -11,8 +11,12 @@
     $usuario->cpf = $_POST['cpf'];
     $usuario->email = $_POST['email'];
 
+    echo "<h1>Dados do Usuário</h1>";
     echo "<b>Nome:</b> " . $usuario->nome . "<br />";
     echo "<b>Idade:</b> " . $usuario->idade . "<br />";
     echo "<b>CPF:</b> " . $usuario->cpf . "<br />";
     echo "<b>E-mail:</b> " . $usuario->email . "<br />";
+
+    // executar o método saudar
+    echo "<h1>" . $usuario->saudar() . "</h1>";
 ?>

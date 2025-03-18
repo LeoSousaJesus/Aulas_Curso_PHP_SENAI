@@ -6,5 +6,10 @@
         public $idade;
         public $cpf;
         public $email;
+
+        // método
+    function saudar(){
+        return "Olá é um prazer estar aqui!";
     }
+}
 ?>
