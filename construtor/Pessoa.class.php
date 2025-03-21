@@ -6,5 +6,13 @@
         public $idade;
         public $email;
         public $cargo;
+
+        // método construtor
+        public function __construct($nome, $idade, $email, $cargo) {
+            $this->nome = $nome;
+            $this->idade = $idade;
+            $this->email = $email;
+            $this->cargo = $cargo;
+        }    
     }
 ?>
