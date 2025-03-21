@@ -3,7 +3,13 @@
     include 'Pessoa.class.php';
 
     // instancia a classe Pessoa
-    $usuario = new Pessoa($_POST['nome'], $_POST['idade'], $_POST['email'], $_POST['cargo']);
+    $usuario = new Pessoa("", 0, "", "");
+
+    // intancia os atributos
+    $usuario->nome = $_POST['nome'];
+    $usuario->idade = $_POST['idade'];
+    $usuario->email = $_POST['email'];
+    $usuario->cargo = $_POST['cargo'];
 
     // exibir os dados
     echo "<h1>Dados do Usuário</h1>";
