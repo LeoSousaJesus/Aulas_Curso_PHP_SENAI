@@ -1,15 +1,18 @@
 <?php
     // importando a classe Pessoa
     include 'Pessoa.class.php';
+    include 'PessoaFisica.class.php';
 
-    // instanciar a classe Pessoa
-    $pessoa = new Pessoa();
+    // cria um objeto da classe PessoaFisica
+    $usuario = new PessoaFisica();
 
     // atribui valores aos atributos
-$pessoa->nome = "Leandro";
-$idade->idade = 34;
+    $usuario->setEmail("leo@gmail.com");
+    $usuario->setTelefone("(61) 99234-5678");
+    $usuario->setEndereco("Rua 400, Lote 45, Bairro Novo");
 
     // exibe os valores dos atributos
-    echo "Nome: " . $pessoa->nome . "<br>";
-    echo "Idade: " . $pessoa->idade . "<br>";
+    echo "<b>Email:</b> " . $usuario->getEmail() . "<br>";
+    echo "<b>Telefone:</b> " . $usuario->getTelefone() . "<br>";
+    echo "<b>Endereço:</b> " . $usuario->getEndereco() . "<br>";
 ?>
