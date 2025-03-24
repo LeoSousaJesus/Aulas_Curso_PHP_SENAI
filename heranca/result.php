@@ -23,5 +23,4 @@
     echo "<b>Email:</b> " . $usuario->getEmail() . "<br>";
     echo "<b>Telefone:</b> " . $usuario->getTelefone() . "<br>";
     echo "<b>Endereço:</b> " . $usuario->getEndereco() . "<br>";
-
 ?>
